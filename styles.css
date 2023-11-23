@@ -115,3 +115,73 @@ h2 {
     justify-content: center;
 }
 
+/***************************************************** content end /*
+
+/***************************************************** pull quote */
+
+.pullQuote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 20rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.attribute {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+/*************************************************** pull quote end */
+
+/*************************************************** call to action */
+
+.callToAction {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 6rem 12rem;
+    border-radius: 8px;
+    padding: 2rem 6rem;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+
+.callToAction h3,
+.callToAction p,
+.callToAction button {
+    margin: 6px;
+}
+
+.callToAction p {
+    color: #e5e7eb;
+}
+
+.callToAction button {
+    border: solid 2px #f9faf8;
+    padding: 0 35px;
+    text-wrap: nowrap;
+    height: 35px;
+    margin: 0;
+}
+
+/************************************************** call to action end */
+
+/************************************************** footer */
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+}
