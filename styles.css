@@ -5,6 +5,8 @@ body {
     font-family: Roboto;
 }
 
+/************************************************ header */
+
 ul,
 a {
     text-decoration: none;
@@ -17,19 +19,57 @@ header {
     background-color: #1f2937;
     color: #f9faf8;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .headerLogo {
     margin-right: auto;
     font-size: 24px;
     font-weight: bold;
-    padding-left: 150px;
+    padding-left: 200px;
 }
 
 .headerLinks {
     display: flex;
     margin-left: 0;
     font-size: 18px;
-    padding-right: 150px;
+    padding-right: 200px;
     gap: 18px;
+}
+
+/********************************************** hero */
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    gap: 5rem;
+    padding-bottom: 6rem;
+}
+
+.heroContent {
+    padding-left: 200px;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.heroImg {
+    padding-right: 200px;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+button {
+    color: #f9faf8;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dodgerblue;
+    padding: .5em 1.5em;
+    border-radius: 8px;
+    border: none;
 }
